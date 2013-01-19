@@ -106,7 +106,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self.detailViewContainerController showViewWithId:[indexPath row]];
+    if([indexPath row] < 3) {
+        [self.detailViewContainerController showViewWithId:[indexPath row]];
+    }
 }
 
 @end
