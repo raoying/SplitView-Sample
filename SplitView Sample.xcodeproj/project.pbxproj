@@ -19,6 +19,7 @@
 		BC66293616AA76CF00EDAA0C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC66293416AA76CF00EDAA0C /* MainStoryboard.storyboard */; };
 		BC66293916AA76CF00EDAA0C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC66293816AA76CF00EDAA0C /* MasterViewController.m */; };
 		BC66293C16AA76CF00EDAA0C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC66293B16AA76CF00EDAA0C /* DetailViewController.m */; };
+		BC66294A16AA783E00EDAA0C /* DetailViewContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC66294916AA783E00EDAA0C /* DetailViewContainerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		BC66293816AA76CF00EDAA0C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		BC66293A16AA76CF00EDAA0C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		BC66293B16AA76CF00EDAA0C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BC66294816AA783E00EDAA0C /* DetailViewContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewContainerController.h; sourceTree = "<group>"; };
+		BC66294916AA783E00EDAA0C /* DetailViewContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewContainerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 		BC66292216AA76CF00EDAA0C /* SplitView Sample */ = {
 			isa = PBXGroup;
 			children = (
+				BC66294816AA783E00EDAA0C /* DetailViewContainerController.h */,
+				BC66294916AA783E00EDAA0C /* DetailViewContainerController.m */,
 				BC66292B16AA76CF00EDAA0C /* AppDelegate.h */,
 				BC66292C16AA76CF00EDAA0C /* AppDelegate.m */,
 				BC66293416AA76CF00EDAA0C /* MainStoryboard.storyboard */,
@@ -182,6 +187,7 @@
 				BC66292D16AA76CF00EDAA0C /* AppDelegate.m in Sources */,
 				BC66293916AA76CF00EDAA0C /* MasterViewController.m in Sources */,
 				BC66293C16AA76CF00EDAA0C /* DetailViewController.m in Sources */,
+				BC66294A16AA783E00EDAA0C /* DetailViewContainerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
